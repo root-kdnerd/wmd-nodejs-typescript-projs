@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin" : {
-    "wmd-b44-raheel-nodejs-ts-projs-calc" : "bin/index.js"
+  "bin": {
+    "wmd-b44-raheel-nodejs-ts-projs-calc": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
