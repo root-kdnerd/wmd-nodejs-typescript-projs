@@ -1,5 +1,5 @@
 {
-  "name": "wmd-nodejs-typescript-projs",
+  "name": "wmd-b44-raheel-nodejs-ts-projs-calc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,8 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.1.4",
+    "npm": "^9.6.1",
+    "npx": "^10.2.2"
   }
 }
