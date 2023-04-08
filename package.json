@@ -1,11 +1,11 @@
 {
-  "name": "wmd-b44-raheel-nodejs-ts-projs-calc",
-  "version": "1.4.0",
+  "name": "wmd-b44-raheel-calc",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "wmd-b44-raheel-nodejs-ts-projs-calc": "bin/index.js"
+    "wmd-b44-raheel-calc": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

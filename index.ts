@@ -4,6 +4,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
 import Choices from "inquirer/lib/objects/choices.js";
+import {add, sub, mul,div} from "./math.js"
 
 const sleep = ()=>{
     return new Promise((res)=>{
@@ -56,18 +57,18 @@ async function askques(){
      //   console.log(answers);
         if(answers.operator == "Addition")
         {
-            console.log(chalk.green(`${answers.num1} + ${answers.num2} = ${answers.num1 + answers.num2}`));
+            console.log(chalk.green(`Answer is: ${add (answers.num1, answers.num2)}`));
         }
-        else if(answers.operator == "Substraction")
+        else if(answers.operator == "Subtraction")
         {
-            console.log(chalk.green(`${answers.num1} - ${answers.num2} = ${answers.num1 - answers.num2}`));
+            console.log(chalk.red(`Answer is: ${sub (answers.num1, answers.num2)}`));
         }
         else if(answers.operator == "Multiplication")
         {
-            console.log(chalk.green(`${answers.num1} * ${answers.num2} = ${answers.num1 * answers.num2}`));
+            console.log(chalk.blueBright(`Answer is: ${mul (answers.num1, answers.num2)}`));
         }
         else if(answers.operator == "Division"){
-            console.log(chalk.green(`${answers.num1} / ${answers.num2} = ${answers.num1 / answers.num2}`));
+            console.log(chalk.gray(`Answer is: ${div (answers.num1, answers.num2)}`));
         }
         }
     )
